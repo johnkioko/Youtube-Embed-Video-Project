@@ -11,3 +11,29 @@ a {
 img{
     cursor:pointer;
 }
+.display{
+    display: flex;
+    align-items: center;
+}
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+   
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25PX;
+}
+.nav-right .user-icon{
+    width:35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-left .menu-icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .logo{
+    width: 120px;
+    
+}

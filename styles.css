@@ -18,6 +18,11 @@ img{
 nav {
     padding: 10px 2%;
     justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
    
 }
 .nav-right img{
@@ -55,4 +60,24 @@ nav {
     border: 0;
     outline: 0;
     background: transparent;
+}
+
+.play-container{
+    padding-left: 5%;
+    margin-top: 25px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.play-video{
+    flex-basis: 69%;
+}
+.right-sidebar{
+    flex-basis: 30%;
+}
+
+.play-video iframe {
+    width: 100%;
 }

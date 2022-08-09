@@ -37,3 +37,22 @@ nav {
     width: 120px;
     
 }
+.nav-middle .voice{
+    width: 16px;
+}
+.nav-middle .searchbox img{
+    width: 15px;
+}
+.nav-middle .searchbox{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    /* border-radius: 25px; */
+}
+
+.nav-middle .searchbox input{
+    width: 600px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
